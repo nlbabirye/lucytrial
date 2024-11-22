@@ -1,0 +1,39 @@
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #e0f2ff;
+    border: 1px solid #99ccff;
+    border-radius: 5px;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #e0e0e0;
+}
+
+main {
+    max-width: 1000px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    width: 100%;
+    text-align: left; /* Adjust the text alignment for sections as needed */
+}
