@@ -1,0 +1,61 @@
+
+body{
+	background-color:powderblue;
+}
+p {
+  color: green;
+}
+div{
+background-color:lightgrey;
+margin-left:80px;
+height: 200px;
+  width: 50%;
+  padding:100px;
+  }
+/*class selectors*/  
+.first
+{ font-weight: bold; 
+}
+.done 
+{ text-decoration: line-through; }
+/*id selectors*/
+#one { 
+background-color:goldenrod; 
+}
+#two{ 
+background-color: silver; 
+}
+#three
+ { 
+ background-color: #CD7F32;
+ }
+/*decendant selectors*/
+div p{
+	 background-color: #CD7F32;
+}
+
+/* text decoration*/
+h1 { text-decoration: overline; }
+
+h2 { text-decoration: line-through; }
+
+h3 { text-decoration: underline; }
+
+/* text transform*/
+p.uppercase { text-transform: uppercase; }
+
+p.lowercase { text-transform: lowercase; }
+
+p.capitalize { text-transform: capitalize; }
+
+	/*font weight*/
+p.normal { font-weight: normal; }
+
+p.thick { font-weight: bold; }
+
+p.very-thick { font-weight: 700; }
+
+/*text shadow*/
+h1.shadow{
+	text-shadow: 2px 2px red;
+}
